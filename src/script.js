@@ -21,6 +21,6 @@ aside.addEventListener("click", (e) => {
 });
 
 close.addEventListener("click", (e) => {
-  modal.style.display = "none";
+  modal.style.width = "0";
   aside.style.display = "flex";
 });
