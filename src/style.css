@@ -208,10 +208,6 @@ button {
 textarea::placeholder {
   color: var(--bg-color);
 }
-.modal button {
-
-  
-}
 
 .close {
   position: relative;
