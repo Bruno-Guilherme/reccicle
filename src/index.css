@@ -1,0 +1,46 @@
+@import url(style.css);
+
+main {
+    background-color: var(--bg-color);
+    min-height: 90vh;
+
+    padding-top: 15vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1vh;
+
+    font-size: 0.9rem;
+}
+
+main section {
+    width: 40vw;
+}
+main section span {
+    color: var(--verde1);
+}
+main section ul {
+    display: flex;
+    flex-flow: column wrap;
+    list-style: none;
+}
+main iframe {
+    min-width: 350px;
+    width: 40vw;
+    height: 40vh;
+
+    border-radius: 10px;
+}
+
+@media only screen and (min-width: 1024px) {
+    main {
+        flex-direction: row;
+    }
+    main section h2 {
+        padding-bottom: 1rem;
+        font-size: 1.5rem;
+    }
+}
+
