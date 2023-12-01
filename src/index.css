@@ -6,8 +6,7 @@ main {
     justify-content: center;
     align-items: center;
     gap: 1vh;
-
-    font-size: 0.9rem;
+    text-align: justify;
 }
 
 main section {
@@ -19,7 +18,14 @@ main section span {
 main section ul {
     display: flex;
     flex-flow: column wrap;
+
     list-style: none;
+}
+main section li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1vw;
 }
 main iframe {
     min-width: 350px;

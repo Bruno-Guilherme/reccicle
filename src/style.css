@@ -72,6 +72,7 @@ header nav ul li {
 }
 header nav ul li a {
   text-decoration: none;
+  width: 100%;
   color: var(--preto);
 }
 
@@ -88,22 +89,31 @@ header .sobre:hover {
   transition: 0.5s ease;
 }
 
-header nav .btn {
+body button {
   background-color: var(--verde1);
-
-  margin: 0 auto;
+  text-transform: uppercase;
   padding: 0.5rem;
+
   border-style: none;
-  border-radius: 15px;
-  width: 100%;
-  max-width: 250px;
-  min-width: 8rem;
+
+  border-radius: 20px;
+  padding: 0.3rem;
 
   text-transform: uppercase;
   color: var(--branco);
   font-weight: bold;
-
   cursor: pointer;
+}
+
+header .entrar {
+  margin: 0 auto;
+}
+
+header nav .btn {
+
+  width: 50%;
+  max-width: 250px;
+  min-width: 8rem;
 }
 
 main {
@@ -199,16 +209,8 @@ textarea::placeholder {
   color: var(--bg-color);
 }
 .modal button {
-  background-color: var(--verde1);
 
-  border: none;
-  border-radius: 20px;
-  padding: 0.2rem;
-
-  cursor: pointer;
-  text-transform: uppercase;
-  color: var(--branco);
-  font-weight: bold;
+  
 }
 
 .close {
