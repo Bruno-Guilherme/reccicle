@@ -59,6 +59,7 @@ main img {
 
 main .slide .btn2 {
     background-color: var(--branco);
+    color: black;
 }
 
 @media only screen and (min-width: 1024px) {

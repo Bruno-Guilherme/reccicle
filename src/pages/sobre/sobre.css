@@ -1,23 +1,13 @@
 @import url("../../style.css");
 
 main {
-    background-image: url(../../imagens/sobre.svg);
-
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-main .bgd {
-    background-size: 80vw;
-    background-position: center;
-
-
-    width: 80%;
-    height: 40vh;
-    margin: 0 auto;
-    border-radius: 30px;
-}
-.bgd {
     display: flex;
+    flex-flow: row wrap;
     justify-content: center;
-    align-items: center;
+    align-items: start;
+}
+
+main section {
+    width: 85vw;
+    margin: 0 auto;
 }
